@@ -169,9 +169,9 @@ public class Main {
      * The sum must then be assigned to the variable summedDoubles and
      * the value of the variable should then be printed to the command line.
      */
-    public static int sumOfValues(double[] double1){
+    public static double sumOfValues(double[] double1){
         int i;
-        int summedDoubles = 0;
+        double summedDoubles = 0;
         for (i = 0; i <= double1.length - 1; i++){
             summedDoubles += double1[i];
         }
